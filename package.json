@@ -9,12 +9,12 @@
     "displayName": "Duplicate Button"
   },
   "peerDependencies": {
-    "@strapi/design-system": "^2.0.0-rc.10",
-    "@strapi/icons": "^2.0.0-rc.10",
-    "@strapi/strapi": "^5.0.0-rc.17",
-    "@strapi/utils": "^5.0.0-rc.17",
-    "react-intl": "6.6.2",
-    "react-router-dom": "6.22.3"
+    "@strapi/design-system": "^2.0.0",
+    "@strapi/icons": "^2.0.0",
+    "@strapi/strapi": "^5.0.0",
+    "@strapi/utils": "^5.0.0",
+    "react-intl": "^6.6.2",
+    "react-router-dom": "^6.22.3"
   },
   "author": {
     "name": "Johannes Lauter"
@@ -34,18 +34,15 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "strapi-plugin build",
     "prepublish": "npm run build"
   },
   "engines": {
-    "node": ">=18.0.0 <=20.x.x"
+    "node": ">=22"
   },
   "license": "MIT",
   "devDependencies": {
     "@babel/preset-react": "^7.24.7",
-    "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-dynamic-import-vars": "^2.1.2",
-    "@rollup/plugin-json": "^6.1.0",
-    "@rollup/plugin-node-resolve": "^15.2.3"
+    "@strapi/sdk-plugin": "^6.1.0"
   }
 }
