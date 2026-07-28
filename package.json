@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-duplicate-button",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Adds a duplicate button to the edit view",
   "strapi": {
     "name": "duplicate-button",
@@ -13,7 +13,7 @@
     "@strapi/icons": "^2.2.3",
     "@strapi/strapi": "^5.50.2",
     "@strapi/utils": "^5.50.2",
-    "react-intl": "^7.1.14",
+    "react-intl": "^6.6.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1"
