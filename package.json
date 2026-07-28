@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-duplicate-button",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Adds a duplicate button to the edit view",
   "strapi": {
     "name": "duplicate-button",
@@ -9,14 +9,14 @@
     "displayName": "Duplicate Button"
   },
   "peerDependencies": {
-    "@strapi/design-system": "^2.0.0",
-    "@strapi/icons": "^2.0.0",
-    "@strapi/strapi": "^5.0.0",
-    "@strapi/utils": "^5.0.0",
-    "react-intl": "^6.6.2",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.22.3"
+    "@strapi/design-system": "^2.2.3",
+    "@strapi/icons": "^2.2.3",
+    "@strapi/strapi": "^5.50.2",
+    "@strapi/utils": "^5.50.2",
+    "react-intl": "^7.1.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1"
   },
   "author": {
     "name": "Johannes Lauter"
@@ -37,7 +37,7 @@
   },
   "scripts": {
     "build": "strapi-plugin build",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "engines": {
     "node": ">=22"
